@@ -16,19 +16,23 @@ int main(void)
 	/* your code goes there */
 the_last_degit = n % 10;
 X = the_last_degit;
-if (n > 5)
+if (X > 5)
 {
 printf("Last digit of %d is %d and is greater than 5", n, X);
 
 }
-else if (n < 6)
+else if (X < 6 && X != 0)
 {
 printf("Last digit of %d is %d and is less than 6 and not 0", n, X);
 }
-else
+else if (X == 0)
 {
 printf("Last digit of %d is %d and is 0", n, X);
 }
-return(0);
+else
+{
+printf("The program does not Worked");
+}
+return (0);
 }
 
