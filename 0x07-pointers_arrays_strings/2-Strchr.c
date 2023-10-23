@@ -1,4 +1,4 @@
-#include "main.h"
+nclude "main.h"
 /**
  * _strchr - Entry point
  * @s: input
